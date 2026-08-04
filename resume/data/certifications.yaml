@@ -1,0 +1,12 @@
+certifications:
+  - issuer: Microsoft
+    name: Azure Solutions Architect Expert
+    credential_url: https://learn.microsoft.com/api/credentials/share/en-us/hassantaj/E459B9F7D7A826D4?sharingId=F236A6E17FDA877C
+  - issuer: Microsoft
+    name: Azure Administrator Associate
+    credential_url: https://learn.microsoft.com/api/credentials/share/en-us/hassantaj/E5F989A52719D58A?sharingId=F236A6E17FDA877C
+  - issuer: Microsoft
+    name: Azure Developer Associate
+    credential_url: https://learn.microsoft.com/api/credentials/share/en-us/hassantaj/22A4B41F6BC2A675?sharingId=F236A6E17FDA877C
+  - issuer: The Linux Foundation
+    name: Developing Secure Software (LFD121)

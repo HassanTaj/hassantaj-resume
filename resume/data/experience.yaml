@@ -1,0 +1,31 @@
+experiences:
+  - company: ML arteka
+    title: Senior Software Engineer
+    start: 2024-03
+    end: present
+    location: Canada
+    arrangement: hybrid
+  - company: Strategic Systems International
+    title: Senior Software Engineer
+    start: 2021-05
+    end: 2024-02
+    location: Lahore, Pakistan
+    arrangement: hybrid
+    confidentiality: Project and client details are confidential under NDA.
+  - company: Freelance
+    title: Full Stack Developer
+    start: 2020-02
+    end: 2021-05
+    location: Lahore, Pakistan
+    arrangement: remote
+  - company: Douxl Technologies
+    title: Full Stack Developer
+    start: 2019-08
+    end: 2020-02
+    location: Dubai, United Arab Emirates
+    arrangement: remote
+  - company: CyberSoft North America Inc.
+    title: Junior Software Developer
+    start: 2019-01
+    end: 2019-07
+    location: Lahore, Pakistan

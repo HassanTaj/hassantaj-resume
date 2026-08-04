@@ -1,0 +1,10 @@
+education:
+  - institution: Virtual University of Pakistan
+    degree: BS Computer Science
+    start: 2014
+    end: 2018
+teaching:
+  - institution: EVS Professional Training Institute
+    role: Visiting Faculty
+    start: 2021-04
+    end: 2024-05

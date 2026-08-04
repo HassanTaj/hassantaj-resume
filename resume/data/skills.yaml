@@ -1,0 +1,9 @@
+skills:
+  languages: [C#, TypeScript, JavaScript, SQL]
+  backend: [.NET, ASP.NET Core, Entity Framework Core, NHibernate, REST, GraphQL, gRPC, NestJS]
+  frontend: [Angular, React, React Native, TypeScript, Bootstrap]
+  architecture: [System Design, Solution Architecture, Platform Architecture, Microservices, Domain-Driven Design, Distributed Systems]
+  identity: [OAuth 2.0, OpenID Connect, JWT, SSO, PKCE, Claims-Based Authorization]
+  cloud_platform: [Microsoft Azure, AWS, GCP, Docker, Traefik, Azure DevOps, GitHub Actions, CI/CD]
+  data: [SQL Server, PostgreSQL, MySQL, MongoDB, Redis, Elasticsearch]
+  ai_engineering: [Specification-Driven Development, GitHub Spec Kit, OpenSpec, MCP, GPT, Claude, GitHub Copilot]

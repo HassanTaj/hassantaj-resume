@@ -1,0 +1,20 @@
+# LaTeX intermediates
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.xdv
+svg-inkscape/
+
+# Generated resume output
+resume/build/*
+!resume/build/.gitkeep
+
+# Local editor and operating-system files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

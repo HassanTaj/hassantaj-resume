@@ -1,0 +1,56 @@
+\titleformat{\section}
+  {\fontsize{11.5pt}{14pt}\selectfont\bfseries\color{ink}}
+  {}{0pt}{\MakeUppercase}
+  [\vspace{0.30em}\color{rulecolor}\titlerule]
+\titlespacing*{\section}{0pt}{0.95em}{0.55em}
+
+\newcommand{\role}[4]{%
+  \begin{tabularx}{\textwidth}{@{}Xr@{}}
+    {\bfseries #1} & {\small\bfseries #2} \\[-0.05em]
+    {\color{accent}\bfseries #3} & {\small\color{muted}#4}
+  \end{tabularx}
+  \vspace{0.05em}
+}
+
+\newcommand{\project}[2]{%
+  \begin{tabularx}{\textwidth}{@{}Xr@{}}
+    {\bfseries #1} & {\small\color{muted}#2}
+  \end{tabularx}
+  \vspace{0.05em}
+}
+
+\newcommand{\sep}{\hspace{0.5em}\textcolor{muted}{\textbar}\hspace{0.5em}}
+
+\newcommand{\ResumeHeader}{%
+  \begin{minipage}[t]{0.70\textwidth}
+    \vspace{0pt}
+    {\fontsize{28pt}{31pt}\selectfont\bfseries \FullName}\par
+    \vspace{0.12em}
+    {\large\color{accent}\bfseries \ResumeHeadline}\par
+    \vspace{0.32em}
+    {\small
+      \faMapMarker\ \LocationName\sep
+      \faPhone\ \PhoneNumber\sep
+      \faEnvelope\ \href{mailto:\EmailAddress}{\EmailAddress}\par
+      \faGlobe\ \href{\PortfolioUrl}{\PortfolioLabel}\sep
+      \faLinkedin\ \href{\LinkedInUrl}{\LinkedInLabel}\sep
+      \faGithub\ \href{\GitHubUrl}{\GitHubLabel}
+    }
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.27\textwidth}
+    \vspace{0pt}
+    \raggedleft
+    \href{\AzureArchitectUrl}{%
+      \includegraphics[width=0.54in]{resume/assets/logos/microsoft-certified-expert-badge.png}%
+    }\hspace{0.05in}%
+    \href{\AzureAdministratorUrl}{%
+      \includegraphics[width=0.54in]{resume/assets/logos/microsoft-certified-associate-badge.png}%
+    }\hspace{0.05in}%
+    \href{\AzureDeveloperUrl}{%
+      \includegraphics[width=0.54in]{resume/assets/logos/microsoft-certified-associate-badge.png}%
+    }
+  \end{minipage}
+  \par
+  \vspace{0.55em}
+  {\color{accent}\rule{\textwidth}{1.15pt}}
+}

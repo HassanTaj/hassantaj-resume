@@ -1,0 +1,26 @@
+projects:
+  - name: Reusable .NET Application Platform
+    type: personal
+    status: ongoing
+    visibility: private-description-only
+    technologies:
+      - .NET
+      - ASP.NET Core
+      - Entity Framework Core
+      - Angular
+      - TypeScript
+      - PostgreSQL
+      - OAuth 2.0 and OpenID Connect
+      - NuGet
+      - CI/CD
+  - name: Self-Hosted Cloud and Platform Lab
+    type: educational
+    status: active
+    repository: https://github.com/HassanTaj/home-lab-server-infra
+    technologies:
+      - Docker
+      - Traefik
+      - CoreDNS
+      - TLS
+      - Monitoring
+      - Backups and recovery
